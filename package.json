@@ -1,0 +1,30 @@
+{
+  "name": "@mugan86/graphql-utilities",
+  "version": "1.0.0",
+  "description": "Utilities to GraphQL APIs",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "publish": "npm publish --access=public"
+  },
+  "keywords": [
+    "jwt",
+    "database",
+    "mongodb",
+    "environments"
+  ],
+  "author": "Anartz Mugika Ledo <mugan86@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.5",
+    "typescript": "^3.7.3"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.3.5",
+    "@types/mongodb": "^3.3.12"
+  }
+}
