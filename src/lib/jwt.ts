@@ -1,4 +1,5 @@
-import { SECRET_KEY, JWT_VERIFY_FAILED } from './../config/constants';
+import { SECRET_KEY } from './../config/constants/principal';
+import { JWT_MESSAGES } from './../config/constants/messages';
 import jwt from 'jsonwebtoken';
 
 class JWT {
@@ -22,7 +23,7 @@ class JWT {
         try {
             return jwt.verify(token, this.secretKey) as string;
         } catch (e) {
-            return JWT_VERIFY_FAILED;
+            return JWT_MESSAGES.VERIFICATION_FAILED;
         }
     }
 }
