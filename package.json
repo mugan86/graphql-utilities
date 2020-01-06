@@ -1,6 +1,6 @@
 {
   "name": "@mugan86/graphql-utilities",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Utilities to GraphQL APIs",
   "main": "build/index.js",
   "scripts": {
